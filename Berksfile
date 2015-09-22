@@ -1,0 +1,10 @@
+source 'https://api.berkshelf.com'
+cookbook 'apache2', '= 3.0.0', git: 'https://github.com/viverae-cookbooks/apache2.git', tag: 'v3.0.0'
+cookbook 'mysql', '= 5.6.1', git: 'https://github.com/opscode-cookbooks/mysql.git', tag: 'v5.6.1'
+cookbook 'apt', '= 2.3.10', git: 'https://github.com/opscode-cookbooks/apt.git', tag: 'v2.3.10'
+cookbook 'composer', '= 1.1.0', git: 'https://github.com/escapestudios-cookbooks/composer.git', tag: '1.1.0'
+cookbook 'hostsfile', '= 2.4.5', git: 'https://github.com/customink-webops/hostsfile.git', tag: 'v2.4.5'
+cookbook 'java', '= 1.7.0'
+cookbook 'elasticsearch', '= 0.3.13', git: 'https://github.com/elastic/cookbook-elasticsearch.git', tag: 'v0.3.13'
+cookbook 'solr', '= 0.5.0', git: 'https://github.com/dwradcliffe/chef-solr.git', tag: 'v0.5.0'
+
