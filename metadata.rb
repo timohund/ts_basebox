@@ -2,7 +2,7 @@ name 'ts_basebox'
 description ''
 maintainer 'Timo Schmidt'
 license ''
-version '0.0.1'
+version '0.1.1'
 
 depends 'apt'
 depends 'apache2'
