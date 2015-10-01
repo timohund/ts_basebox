@@ -22,7 +22,7 @@ include_recipe "java"
 #
 # Elasticsearch
 #
-if node['ts_devbox']['elasticsearch']['install']
+if node['ts_basebox']['elasticsearch']['install']
   node.set['elasticsearch']['version']            = '1.5.1'
   node.set['elasticsearch']['cluster']['name']    = 'ts'
 
@@ -32,7 +32,7 @@ end
 #
 # Solr
 #
-if node['ts_devbox']['solr']['install']
+if node['ts_basebox']['solr']['install']
   node.set['solr']['version']                   = '4.10.4'
 
   include_recipe "solr"
