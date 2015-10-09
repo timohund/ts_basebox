@@ -1,8 +1,13 @@
+#
+# Apt
+#
+include_recipe 'apt'
 
 #
 # Apache
 #
-include_recipe 'apt'
+
+node.set['apache']['mpm'] = "prefork"
 include_recipe 'apache2'
 
 #

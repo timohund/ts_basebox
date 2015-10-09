@@ -1,8 +1,8 @@
 name 'ts_basebox'
-description ''
+description 'Basic lamp box with apache2 / elasticsearch and solr'
 maintainer 'Timo Schmidt'
 license ''
-version '0.1.3'
+version '0.1.4'
 
 depends 'apt', '= 2.3.10'
 depends 'apache2', '= 3.0.0'
